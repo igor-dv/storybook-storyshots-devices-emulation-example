@@ -37,10 +37,6 @@ for (let supportedDevice of supportedDevices) {
       customizePage,
     })
   });
-
-  describe(pupDevice.name, () => {
-
-  });
 }
 
 initStoryshots({

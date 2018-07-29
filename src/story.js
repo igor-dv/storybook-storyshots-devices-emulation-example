@@ -10,5 +10,14 @@ storiesOf('Example', module)
     return '<button>Button</button>';
   })
   .add('Table', () => {
-    return '<table><tr><td>td</td><td>td</td></tr><tr><td>td</td><td>td</td></tr></table>';
+    return `<table>
+              <tr>
+                <td>td</td>
+                <td>td</td>
+              </tr>
+              <tr>
+                <td>td</td>
+                <td>td</td>
+              </tr>
+            </table>`;
   });
